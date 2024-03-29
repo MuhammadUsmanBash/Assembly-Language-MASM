@@ -16,6 +16,11 @@ Reply BYTE Response
     Mov eax, sizeof greetings
     ;displaing size of "greetings" variable:
     call writeint
+    call crlf
+    ;moving length of "greetings" variable in register:
+    Mov ebx, lengthof greetings
+    ;displaing length of "greetings" variable:
+    call writeint
     ;Next line:
     call crlf
     ;Moving offset or the address of first character in the register: 
@@ -23,7 +28,7 @@ Reply BYTE Response
     ;Displaying the string:
     call writestring
     call crlf
-    ;Displaying al registers:
+    ;Displaying all registers:
     call dumpregs
   exit
 main ENDP
