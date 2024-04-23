@@ -15,6 +15,8 @@ L1:
     dec ebp
 loop L1 
 
+
+
     mov edx, OFFSET target+1
     call writestring
 
