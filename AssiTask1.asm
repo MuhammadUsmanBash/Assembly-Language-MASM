@@ -1,15 +1,1 @@
-TITLE EXercise 2
-INCLUDE Irvine32.inc
-.data
-    one WORD 8002h
-    two WORD 4321h
-.code
- main PROC
-    mov edx,21348041h
-    movsx edx,one ; (a)
-    movsx edx,two ; (b)
-    call dumpregs
-  exit
-main ENDP
-END main
-
+.gitattributes AssiTask1.asm AssiTask1.temp.asm AssiTask1.temp.exe AssiTask1.temp.obj first.asm first.temp.asm first.temp.exe first.temp.obj lab2p1.asm lab2p1.ilk lab2p1.lst lab2p1.obj lab2p1.pdb lab2p1.temp.asm lab2p1.temp.obj lab2p2.asm lab2p2.ilk lab2p2.lst lab2p2.obj lab2p2.pdb lab2p3.asm lab2p3.ilk lab2p3.lst lab2p3.obj lab2p3.pdb lab2p3b.asm lab2p3b.ilk lab2p3b.lst lab2p3b.obj lab2p3b.pdb lab2p4.asm lab2p4.temp.asm lab2p4.temp.err lab2p4.temp.exe Lab3Task1.asm Lab3Task1.lst Lab3Task1.temp.asm Lab3Task1.temp.exe Lab3Task1.temp.obj lab3task2.asm lab3task2.temp.asm lab3task2.temp.exe lab3task2.temp.obj Lab3Task3.asm Lab3Task3.temp.asm Lab3Task3.temp.err Lab3Task3.temp.exe Lab4Task1.asm Lab4Task1.temp.asm Lab4Task1.temp.exe Lab4Task1.temp.obj Lab4Task2.asm Lab4Task2.temp.asm Lab4Task2.temp.exe Lab4Task2.temp.obj Lab5Task4.asm README.md

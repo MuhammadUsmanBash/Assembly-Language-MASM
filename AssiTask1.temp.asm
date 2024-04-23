@@ -5,9 +5,9 @@ INCLUDE c:\Users\Muhammad Usman\.vscode\extensions\istareatscreens.masm-runner-0
     two WORD 4321h
 .code
  main PROC
-    mov edx,21348041h
-    movsx edx,one ; (a)
-    movsx edx,two ; (b)
+    mov eax,1002FFFFh  
+    call dumpregs
+    neg ax
     call dumpregs
   exit
 main ENDP
