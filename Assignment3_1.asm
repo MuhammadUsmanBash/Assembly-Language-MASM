@@ -9,7 +9,7 @@ call Clrscr
 
 StateA:
 call Getnext ; read next char into AL
-cmp al,'+' ; leading + sign?
+cmp al,'+' ; leading + sign?Lab 9
 je StateB ; go to State B
 cmp al,'-' ; leading - sign?
 je StateB ; go to State B
